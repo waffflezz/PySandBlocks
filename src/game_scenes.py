@@ -136,8 +136,8 @@ class PauseScene(BaseScene):
             self.director.remove_scene()
         if pyxel.btnp(pyxel.KEY_X):
             play_once(3, 1)
-            self.director.remove_scene()
-            self.director.remove_scene()
+            self.director.remove_scene(3)
+            self.director.add_scene(MainMenuScene(self.director))
 
     def draw(self):
         pyxel.cls(0)

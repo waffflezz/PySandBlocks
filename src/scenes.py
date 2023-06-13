@@ -27,8 +27,9 @@ class Director:
         self.scene_stack.append(scene)
         scene.on_enter()
 
-    def remove_scene(self):
-        self.scene_stack.pop().on_exit()
+    def remove_scene(self, count=1):
+        for _ in range(count):
+            self.scene_stack.pop().on_exit()
 
     def update(self):
         if self.scene_stack:
