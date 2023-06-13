@@ -9,7 +9,11 @@ This is a clone (demake?) of game [Sandtrix](https://mslivo.itch.io/sandtrix). M
 You can download and play my game in itch page [PySandBlocks], play from .pyxapp file or run sources.
 
 From .pyxapp:
+- Clone or download my repo
+- Open terminal and write code above
 ```
+pip install pyxel
+
 pyxel play PySandBlocks.pyxapp
 ```
 
