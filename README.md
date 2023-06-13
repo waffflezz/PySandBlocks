@@ -6,7 +6,7 @@ This is a clone (demake?) of game [Sandtrix](https://mslivo.itch.io/sandtrix). M
 :video_game: Having fun! :joystick:
 
 ## How to play
-You can download and play my game in itch page [PySandBlocks], play from .pyxapp file or run sources.
+You can download and play my game in itch page [PySandBlocks](https://waffflezz.itch.io/pysandblocks), play from .pyxapp file or run sources.
 
 From .pyxapp:
 - Clone or download my repo
