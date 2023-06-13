@@ -10,7 +10,7 @@ You can download and play my game in itch page [PySandBlocks](https://waffflezz.
 
 From .pyxapp:
 - Clone or download my repo
-- Open terminal and write code above
+- Open terminal and write code below
 ```
 pip install pyxel
 
